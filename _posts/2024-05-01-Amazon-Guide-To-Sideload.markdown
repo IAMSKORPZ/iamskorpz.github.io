@@ -2,11 +2,11 @@
 subtitle: "Amazon"
 author: "Skorpz"
 avatar: "img/authors/Social-Avatar.png"
-image: "img/blog-post/amazon/How_to_sideload_app.png"
+image: "img/blog-post/amazon/How_to_sideload_apps.png"
 date:   2024-06-06 12:00:00
 ---
 
-<div style="text-align: center"><img src="img/blog-post/amazon/How_to_sideload_app.png" width="250" height="250" /></div>
+<div style="text-align: center"><img src="img/blog-post/amazon/How_to_sideload_apps.png" width="250" height="250" /></div>
 
 **Sideloading on the Amazon Fire Device – 2026 Updated Guide**
 
