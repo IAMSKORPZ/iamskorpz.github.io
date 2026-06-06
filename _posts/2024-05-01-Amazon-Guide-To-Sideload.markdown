@@ -1,10 +1,9 @@
----
-title:  "A Beginner's Guide to Jailbreaking your Amazon Device"
+---ttitle:  "A Beginner's Guide to Jailbreaking your Amazon Device"
 subtitle: "Amazon"
 author: "Skorpz"
 avatar: "img/authors/Social-Avatar.png"
 image: "img/blog-post/amazon/How_to_sideload_apps.png"
-date:   2024-05-01 12:00:00
+date:   2024-06-06 12:00:00
 ---
 
 <div style="text-align: center"><img src="img/blog-post/amazon/How_to_sideload_apps.png" width="250" height="250" /></div>
@@ -82,3 +81,5 @@ As you explore sideloading, always be mindful of your device's security:
 
 ### **Conclusion**
 Congratulations! You've successfully prepared your Amazon Fire device for sideloading and mastered the Downloader tool. Enjoy the expanded app options and customization features. If you have any questions or want to share your experiences, feel free to leave a comment below. Happy sideloading!
+ur experiences, feel free to leave a comment below. Happy sideloading!
+ur experiences, feel free to leave a comment below. Happy sideloading!

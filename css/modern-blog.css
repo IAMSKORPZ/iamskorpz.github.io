@@ -347,9 +347,11 @@ a:hover, a:focus {
 
 .card__copy img {
     max-width: 100%;
+    height: auto !important;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0,0,0,0.3);
-    margin: 20px 0;
+    margin: 20px auto;
+    display: block;
 }
 
 .card__btn-close {
