@@ -123,24 +123,23 @@ a:hover, a:focus {
     box-shadow: var(--accent-glow);
 }
 
-/* Card Styling */
+/* CARD structural logic */
 .card {
 	position: relative;
 	float: left;
-	width: 30%;
+	width: 29%;
 	height: 0;
-	margin: 1.66%;
-	padding-bottom: 25%; /* Aspect ratio */
+	margin: 2%;
+	padding-bottom: 20%;
+    /* My additions */
     border-radius: 20px;
-    overflow: hidden;
-    transform: translateY(0);
-    transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.4s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), var(--accent-glow);
-    z-index: 10;
 }
 
 .card__container {
@@ -152,13 +151,11 @@ a:hover, a:focus {
 	width: 100%;
 	height: 100%;
 	-webkit-overflow-scrolling: touch;
-    z-index: 100;
 }
 
 .card__container--closed {
 	position: absolute;
 	overflow: hidden;
-    z-index: 1;
 }
 
 .card__image {
@@ -169,31 +166,24 @@ a:hover, a:focus {
 	width: 100%;
 	height: 100%;
     object-fit: cover;
-    transition: transform 0.5s ease;
 }
 
 .card__container--closed .card__image {
 	position: relative;
 	cursor: pointer;
 }
-
-.card__container--closed:hover .card__image {
-    transform: scale(1.05);
-}
-
 /* Fix IE */
 .card__container--fix-image .card__image {
 	position: fixed;
 }
 
-/* Content inside card when opened */
 .card__content {
 	position: relative;
 	width: 100%;
 	max-width: 800px;
 	height: auto;
 	margin: 400px auto 60px;
-	padding: 40px;
+	padding: 30px 40px 22px;
 	background: var(--bg-color);
     border-radius: 20px;
     box-shadow: 0 -20px 40px rgba(0,0,0,0.5);
@@ -207,10 +197,6 @@ a:hover, a:focus {
 	background: transparent;
     border: none;
     box-shadow: none;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    background: linear-gradient(to top, rgba(15, 23, 42, 0.95), transparent);
 }
 
 .card__caption {
@@ -223,12 +209,15 @@ a:hover, a:focus {
 .card__container--closed .card__caption {
 	font-size: 1em;
 	max-width: auto;
-	padding: 20px;
-	transform: translateY(0);
+	padding: 10px 10px 25px;
+	-webkit-transform: translateY(-100%);
+	-ms-transform: translateY(-100%);
+	transform: translateY(-100%);
+    text-shadow: 0 2px 5px rgba(0,0,0,0.9);
 }
 
 .card__title {
-	font-size: 1.8em;
+	font-size: 1.5em;
 	line-height: 1.2;
 	margin: 5px 0 0 0;
 	color: var(--text-primary);
@@ -236,39 +225,38 @@ a:hover, a:focus {
 }
 
 .card__container--closed .card__title {
-    font-size: 1.4em;
+	color: #fff;
 }
 
 .card__subtitle {
-	font-size: 1em;
+	font-size: .95em;
 	line-height: 1.4;
-	margin: 10px 0 0;
+	margin: 5px 0 0;
 	color: var(--accent-color);
     font-weight: 600;
 }
 
 .card__container--closed .card__subtitle {
 	color: #cbd5e1;
-    font-weight: 400;
 }
 
 .card__copy {
-	font-size: 1.15em;
+	font-size: 1.25em;
 	max-width: 900px;
 	margin: 0 auto;
 	padding: 25px 30px 100px;
 	color: var(--text-secondary);
 }
 
-.card__copy h1, .card__copy h2, .card__copy h3, .card__copy h4, .card__copy h5 {
-    color: var(--text-primary);
-    margin-top: 1.5em;
-}
-
 .card__copy p:first-of-type {
-	font-size: 1.25em;
+	font-size: 1.5em;
 	padding: 0 0 1em 0;
     color: var(--text-primary);
+}
+
+.card__copy h1, .card__copy h2, .card__copy h3 {
+    color: var(--text-primary);
+    margin-top: 1.5em;
 }
 
 .card__copy img {
@@ -279,26 +267,18 @@ a:hover, a:focus {
 }
 
 .card__btn-close {
-	font-size: 24px;
+	font-size: 18px;
 	position: absolute;
-	top: -60px;
+	top: 0;
 	right: 0;
-	padding: 15px;
+	padding: 36px;
 	cursor: pointer;
     color: #fff;
-    background: rgba(0,0,0,0.5);
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    backdrop-filter: blur(5px);
-    transition: background 0.3s ease;
+    transition: color 0.3s ease;
 }
 
 .card__btn-close:hover {
-    background: var(--accent-color);
+    color: var(--accent-color);
 }
 
 .card__container--closed .card__btn-close {
@@ -306,7 +286,7 @@ a:hover, a:focus {
 }
 
 .meta {
-	font-size: 0.9em;
+	font-size: .85em;
 	display: flex;
 	padding: 0 0 35px 0;
 	align-items: center;
@@ -360,7 +340,7 @@ a:hover, a:focus {
 @media only screen and (max-width: 980px) {
 	.card {
 		width: 46%;
-		padding-bottom: 40%;
+		padding-bottom: 32.2%;
 	}
 	.card__content {
 		margin-bottom: 0;
@@ -372,12 +352,22 @@ a:hover, a:focus {
 @media only screen and (max-width: 580px) {
 	.card {
 		width: 96%;
-		padding-bottom: 75%;
+		padding-bottom: 67.2%;
 	}
-    .card__btn-close {
-        top: 10px;
-        right: 10px;
-    }
+}
+
+@media only screen and (max-width: 400px) {
+	.card__caption {
+		font-size: 1.25em;
+		padding: 35px 0px 0px;
+	}
+	.meta {
+		padding: 0 0 25px 0;
+	}
+	.card__copy {
+		font-size: 90%;
+		padding: 25px 0px 100px;
+	}
 }
 
 /* PATTERN */
