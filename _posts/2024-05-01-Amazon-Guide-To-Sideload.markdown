@@ -11,6 +11,10 @@ date:   2024-05-01 12:00:00
 
 **Sideloading on the Amazon Fire Device – 2026 Updated Guide**
 
+### **Table of Contents**
+* TOC
+{:toc}
+
 ### **Introduction**
 Welcome to our blog, where we'll guide you through the exciting world of sideloading apps onto your Amazon Fire device. By the end of this comprehensive guide, you'll know exactly how to install third-party apps like TiviMate Pro, Cinema HD, and more!
 
