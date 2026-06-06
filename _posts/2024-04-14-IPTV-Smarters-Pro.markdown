@@ -7,7 +7,7 @@ image: "img/blog-post/smaters-pro/thumbnail.jpg"
 date:   2024-04-14 12:00:00
 ---
 
-<div style="text-align: center"><img src="img/blog-post/smaters-pro/post-img.png" width="250" height="250" /></div>
+<div style="text-align: center"><img src="img/blog-post/smaters-pro/How_to_sideload_smarters.png" width="250" height="250" /></div>
 
 **Sideloading IPTV SMARTERS on the Amazon Fire Device – A Beginner’s Guide.**
 

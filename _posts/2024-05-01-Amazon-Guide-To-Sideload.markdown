@@ -7,7 +7,7 @@ image: "img/blog-post/amazon/thumbnail-img.jpg"
 date:   2024-05-01 12:00:00
 ---
 
-<div style="text-align: center"><img src="img/blog-post/amazon/post-img.png" width="250" height="250" /></div>
+<div style="text-align: center"><img src="img/blog-post/amazon/How_to_sideload_apps.png" width="250" height="250" /></div>
 
 **Sideloading on the Amazon Fire Device – A Beginner’s Guide.**
 
