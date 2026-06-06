@@ -131,16 +131,6 @@ a:hover, a:focus {
 	height: 0;
 	margin: 2%;
 	padding-bottom: 20%;
-    /* My additions */
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-    transition: top 0.3s ease, box-shadow 0.3s ease;
-    top: 0;
-}
-
-.card:hover {
-    top: -10px;
-    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), var(--accent-glow);
 }
 
 .card__container {
@@ -157,6 +147,15 @@ a:hover, a:focus {
 .card__container--closed {
 	position: absolute;
 	overflow: hidden;
+    /* Moved from .card to avoid ghost shadow when opened */
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: top 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card__container--closed:hover {
+    top: -10px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), var(--accent-glow);
 }
 
 .card__image {
