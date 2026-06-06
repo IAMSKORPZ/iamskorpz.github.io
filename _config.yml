@@ -1,7 +1,12 @@
-# Site settings
-title: The Entertainment Hub!
-description: Premium Streams, Free Dreams, Your Ultimate IPTV Destination!
-keywords: Streaming Services, HD Streaming, IPTV, Free IPTV, Live TV, Video On Demand (VOD), Premium Accounts, Online Entertainment
+# Site Settings
+title: The Entertainment Hub
+description: Discover the latest IPTV players, streaming apps, media tools, and entertainment guides.
+keywords: IPTV, Streaming, SFVip Player, Media Apps, Live TV, Movies, Series, VOD, Windows, Android
 author: Mr. Skorpz
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "teamskorpz.github.io" # the base hostname & protocol for your site
+
+# Site URL Configuration
+baseurl: "/"
+url: "https://teamskorpz.github.io"
+
+# Branding
+tagline: Premium Entertainment, Unlimited Possibilities
