@@ -270,17 +270,30 @@ var demo = (function (window) {
             var index = $(card).attr(ATTRIBUTES.index);
             return parseInt(index, 10);
         };
-        if (fromId) {
-            var fromBlogCard = $('[' + ATTRIBUTES.id + '="' + fromId + '"]')[0];
-            if (fromBlogCard) {
-                _playSequence.call(fromBlogCard, false, getIndex(fromBlogCard));
+        
+        var toBlogCard = toId ? $('[' + ATTRIBUTES.id + '="' + toId + '"]')[0] : null;
+
+        // If a hash is provided but it doesn't match a card, it's an internal link (like a TOC anchor).
+        // Return early to allow the browser to natively scroll down to the anchor without closing the card!
+        if (toId && !toBlogCard) {
+            return;
+        }
+
+        // Close any currently open cards, unless we are navigating back to the same card.
+        for (var i in layout) {
+            if (layout.hasOwnProperty(i)) {
+                var card = layout[i].card;
+                if (card.isOpen) {
+                    if (!toBlogCard || card.id !== getIndex(toBlogCard)) {
+                        _playSequence.call(card._el, false, card.id);
+                    }
+                }
             }
         }
-        if (toId) {
-            var toBlogCard = $('[' + ATTRIBUTES.id + '="' + toId + '"]')[0];
-            if (toBlogCard) {
-                _playSequence.call(toBlogCard, true, getIndex(toBlogCard));
-            }
+
+        // Open the target card if one exists
+        if (toBlogCard) {
+            _playSequence.call(toBlogCard, true, getIndex(toBlogCard));
         }
     };
 
