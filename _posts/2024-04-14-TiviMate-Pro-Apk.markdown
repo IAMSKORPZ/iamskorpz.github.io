@@ -1,7 +1,7 @@
 ---
-title:  "How to Install TiviMate on Firestick."
+title:  "How to Install TiviMate on Firestick"
 subtitle: "Amazon"
-author: "Mr. Skorpz"
+author: "Skorpz"
 avatar: "img/authors/Social-Avatar.png"
 image: "img/blog-post/tivimate/How_to_sideload_tivimate.png"
 date:   2024-04-14 12:00:00
@@ -9,46 +9,80 @@ date:   2024-04-14 12:00:00
 
 <div style="text-align: center"><img src="img/blog-post/tivimate/How_to_sideload_tivimate.png" width="250" height="250" /></div>
 
-**Sideloading TiviMate on the Amazon Fire Device – A Beginner’s Guide.**
+**Sideloading TiviMate on the Amazon Fire Device – 2026 Updated Guide**
 
-### **Introduction:**
-Welcome to our blog, where we'll guide you through the exciting world of sideloading App's on to your Amazon Fire device. By the end of this comprehensive guide, you'll have Installed the TiviMate Apk.
+### **Introduction**
+Welcome to our blog! In this guide, we'll walk you through the exciting world of sideloading apps onto your Amazon Fire device. By the end of this comprehensive tutorial, you will have successfully installed the **TiviMate Pro** application.
 
-##### **Why Choose TiviMate Pro Apk?.**
-TiviMate IPTV features a user interface tailored for large screens. It accommodates multiple playlists and includes scheduled TV guide updates. Additionally, users can catch up on missed TV shows and movies. TiviMate provides access to various entertainment content, including shows from Amazon Prime Video, Apple TV+, Disney+, Netflix, NowTV, BritBox, DAZN, Hayu and much more, Providing you have a xCode Login or Playlist M3U.
+### **Why Choose TiviMate?**
+TiviMate IPTV features a premium user interface perfectly tailored for large TV screens. It accommodates multiple playlists, includes scheduled TV guide (EPG) updates, and allows users to catch up on missed TV shows and movies. TiviMate provides a beautiful interface to access your entertainment content, provided you have an Xtream Codes login or an M3U Playlist from your IPTV provider.
 
-##### Is TiviMate IPTV Safe to Use?
-It is uncertain to determine whether IPTV is legal or not, including TiviMate IPTV. But it is common to doubt the IPTV services as they may provide copy-righted content for the users. Hence, you need to use a VPN with your streaming device to hide your IP address and location, thereby making you anonymous. It also protects your data and privacy by settings up a private network connection. Therefore, we suggest you use the VPN services like ExpressVPN and NordVPN to stream any IPTV on your device.
+> **Important Note:** TiviMate is purely a video player. It does **not** provide any live TV channels, movies, or subscriptions on its own. You must have your own IPTV service provider.
 
-#### How to Get TiviMate IPTV Player on Firestick?
-Since the TiviMate IPTV Player app doesn’t have native support for Firestick, you need to sideload it using the Downloader app on Firestick.
+---
 
-- Steps to Follow:
-1. Go to the Firestick home screen and click on the Search icon.
-2. Search for "Downloader."
-3. Download and install the Downloader app.
-4. Press the Home button on your Firestick remote.
-5. Select the Settings icon, then click on "My Fire TV."
-6. Choose "Developer Options" and enable "Install Unknown Apps."
-7. Enable the Downloader app.
-8. Press Home and open the Downloader app.
-9. Enter the code: **499557**
-10. Click "Go" to download the APK file.
-11. Open the downloaded file and select "Install" to install the app.
-12. Congratulations! You've successfully sideloaded the TiviMate App on your Amazon Firestick.
+### **Part 1: Unhiding Developer Options (The 7-Click Trick)**
+Because TiviMate is not available in the official Amazon Appstore, we need to sideload it. First, we must unlock your Firestick's hidden developer settings.
+
+1. From the Fire TV Home Screen, navigate to **Settings** (the gear icon).
+2. Select **My Fire TV** (or **Device & Software**).
+3. Click on **About**.
+4. Highlight your device name at the top (e.g., **Fire TV Stick 4K**).
+5. Press the center **Select** button on your remote **7 times quickly**. 
+6. You will see a notification saying *"No need, you are already a developer."*
+
+---
+
+### **Part 2: Enable Sideloading Permissions**
+Now that Developer Options are unlocked, let's enable sideloading.
+
+1. Press the **Back** button on your remote to return to the **My Fire TV** menu.
+2. Click on **Developer Options**.
+3. Turn **ON** the setting for **ADB Debugging**.
+4. Select **Install Unknown Apps** (or **Apps from Unknown Sources**) and turn it **ON**.
+
+---
+
+### **Part 3: Install the Downloader App**
+To download TiviMate from the web, we need the Downloader tool.
+
+1. Press the **Home** button on your remote.
+2. Go to the **Find** or **Search** icon.
+3. Type in **"Downloader"** and select the app with the bright orange icon.
+4. Click **Download** or **Get** to install it.
+5. Open the app and click **Allow** when it asks for permission to access your files.
+
+---
+
+### **Part 4: Installing TiviMate via Downloader**
+With Downloader ready, getting TiviMate takes just seconds!
+
+1. Open the **Downloader** app.
+2. Click into the URL/Search bar on the home screen.
+3. Enter the 2026 TiviMate Downloader code: **272483** (or your preferred shortcode).
+4. Click **Go**. The app will automatically connect and download the TiviMate APK file.
+5. When prompted, click **Install**.
+6. Once installed, click **Done**, then click **Delete** on the Downloader prompt to remove the installation file and save storage space!
+
+> **Pro Tip:** Always delete the APK file after installing to keep your Firestick running fast and free of clutter!
+
+---
+
+### **Part 5: How to Setup TiviMate with Xtream Codes**
+After installing TiviMate, you need to integrate your IPTV service provider's details.
+
+1. Open the **TiviMate** app.
+2. Select **Add Playlist**.
+3. Choose **Xtream Codes login** (This is highly recommended over M3U for faster loading and better TV Guides).
+4. Enter the details provided by your IPTV service:
+   - **Server URL:** (e.g., `http://example-server.com:8080`)
+   - **Username:** Your provided username
+   - **Password:** Your provided password
+5. Check the box for **Include VOD** if your provider offers Movies/Series.
+6. Click **Next** or **Save**. 
+7. Once the playlist successfully processes and loads your channels, click **Done**.
+
+Congratulations! Your TiviMate Pro Player is now set up to stream your favorite content on a beautiful, modern interface. Enjoy!
 
 **--- setup.gif - Coming Soon! ---**
-
-#### How to setup TiviMate Player to Stream your IPTV.
-After installing the TiviMate Pro Player on your Amazon device, you can integrate any IPTV playlist and watch content by following the upcoming steps.
-
-- Steps to Follow:
-1. Open TiviMate Player app.
-2. Tap "Add playlist."
-3. Select "Xtream Codes login."
-4. Enter your Username, Password, and Playlist URL.
-5. Tap "Save Channels and VOD Upload."
-6. Once the playlist loads, tap "Done."
-7. Congratulations! Your TiviMate Pro Player is now set up to stream your favorite content.
-
 **--- playlist.gif - Coming Soon! ---**
