@@ -32,11 +32,11 @@ IPTV SMARTERS features a user interface tailored for large and Small screens. It
 It is uncertain to determine whether IPTV is legal or not, including IPTV SMARTERS. But it is common to doubt the IPTV services as they may provide copy-righted content for the users. Hence, you need to use a VPN with your streaming device to hide your IP address and location, thereby making you anonymous. It also protects your data and privacy by settings up a private network connection. Therefore, we suggest you use the VPN services like ExpressVPN and NordVPN to stream any IPTV on your device.
 
 ### **How to Get IPTV SMARTERS on Firestick?**
-Since the IPTV SMARTERS app doesn’t have native support for Firestick, you need to sideload it using the Downloader app on Firestick.
+Since the IPTV SMARTERS app doesn’t have native support for Firestick, you need to sideload it using the [**Downloader app**](https://www.amazon.com/AFTVnews-com-Downloader/dp/B01N0BP507) on Firestick.
 
 - Steps to Follow:
 1. Go to the Firestick home screen and click on the Search icon.
-2. Search for "Downloader."
+2. Search for **"Downloader."** (Or view it [here on the Amazon Appstore](https://www.amazon.com/AFTVnews-com-Downloader/dp/B01N0BP507))
 3. Download and install the Downloader app.
 4. Press the Home button on your Firestick remote.
 5. Select the Settings icon, then click on "My Fire TV."
@@ -63,15 +63,14 @@ Unlike the Firestick, installing IPTV SMARTERS on your iPhone or iPad is incredi
 7. Once installed, open the app and proceed to the setup instructions below.
 
 ### **How to Get IPTV SMARTERS on Android?**
-Installing IPTV SMARTERS on your Android phone or tablet is just as easy as it is on iOS!
+Installing IPTV SMARTERS on your Android phone or tablet takes just a few seconds using our direct download link!
 
 - Steps to Follow:
-1. Open the **Google Play Store** on your Android device.
-2. Tap the **Search bar** at the top of the screen.
-3. Type **"IPTV Smarters"** or **"Smarters Player Lite"** into the search bar.
-4. Locate the official app and tap **Install**.
-5. *Alternative method:* If it's not available in the Play Store in your region, you can open Google Chrome on your device, visit the official website (iptvsmarters.com), and download the Android APK directly to install it.
-6. Once installed, open the app and proceed to the setup instructions below.
+1. You can download the official IPTV Smarters Pro APK directly from our repository.
+2. Click here to download: [**Download IPTV Smarters for Android**](https://github.com/IAMSKORPZ/iamskorpz.github.io/releases/download/Streaming/iptv-smarters-pro-5-0.2.apk)
+3. Once the APK file downloads, open it to begin the installation. *(Note: You may need to allow your browser to "Install Unknown Apps" in your Android settings if prompted).*
+4. Tap **Install**.
+5. Once installed, open the app and proceed to the setup instructions below.
 
 ### **How to Setup IPTV SMARTERS to Stream your IPTV Content**
 After installing the IPTV SMARTERS on your Amazon, iOS, or Android device, you can integrate any IPTV playlist and watch content by following the upcoming steps.
