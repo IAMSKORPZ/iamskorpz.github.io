@@ -4,12 +4,21 @@ subtitle: "Amazon"
 author: "Skorpz"
 avatar: "img/authors/Social-Avatar.png"
 image: "img/blog-post/tivimate/How_to_sideload_tivimate.png"
-date:   2024-04-14 12:00:00
+date:   2026-06-07 12:00:00
 ---
 
-<div style="text-align: center"><img src="img/blog-post/tivimate/How_to_sideload_tivimate.png" width="250" height="250" /></div>
+<div style="text-align: center"><img src="img/blog-post/tivimate/How_to_sideload_tivimate.png" style="width: 100%; max-width: 250px; height: auto;" /></div>
 
 **Sideloading TiviMate on the Amazon Fire Device – 2026 Updated Guide**
+
+### **Table of Contents**
+* [Introduction](#introduction)
+* [Why Choose TiviMate?](#why-choose-tivimate)
+* [Part 1: Prepare your Device (Install Downloader)](#part-1-prepare-your-device-install-downloader)
+* [Part 2: Installing TiviMate via Downloader](#part-2-installing-tivimate-via-downloader)
+* [Part 3: How to Setup TiviMate with Xtream Codes](#part-3-how-to-setup-tivimate-with-xtream-codes)
+
+<a id="markdown-toc"></a>
 
 ### **Introduction**
 Welcome to our blog! In this guide, we'll walk you through the exciting world of sideloading apps onto your Amazon Fire device. By the end of this comprehensive tutorial, you will have successfully installed the **TiviMate Pro** application.
@@ -61,5 +70,10 @@ After installing TiviMate, you need to integrate your IPTV service provider's de
 
 Congratulations! Your TiviMate Pro Player is now set up to stream your favorite content on a beautiful, modern interface. Enjoy!
 
-**--- setup.gif - Coming Soon! ---**
+**--- setup.gif - Coming Soon! ---**  
 **--- playlist.gif - Coming Soon! ---**
+
+<!-- Floating Back to Top Button -->
+<a href="#markdown-toc" style="position: fixed; bottom: 30px; right: 30px; background-color: #ff9900; color: white; padding: 12px 18px; border-radius: 50px; text-decoration: none; font-weight: bold; box-shadow: 0 4px 6px rgba(0,0,0,0.3); z-index: 9999;">
+  ⬆️ Top
+</a>
