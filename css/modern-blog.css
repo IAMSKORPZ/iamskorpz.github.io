@@ -204,6 +204,10 @@ a:hover, a:focus {
 
 .card__container--closed {
 	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 	overflow: hidden;
     /* Moved from .card to avoid ghost shadow when opened */
     border-radius: 20px;
