@@ -1,0 +1,66 @@
+---
+import Layout from '~/layouts/PageLayout.astro';
+import Hero from '~/components/widgets/Hero.astro';
+import Features from '~/components/widgets/Features.astro';
+import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
+
+const metadata = {
+  title: 'The Entertainment Hub',
+  description: 'Premium entertainment guides for IPTV players, streaming apps, and media tools.',
+  ignoreTitleTemplate: true,
+};
+---
+
+<Layout metadata={metadata}>
+  <Hero
+    tagline="Premium Entertainment, Unlimited Possibilities"
+    actions={[
+      { variant: 'primary', text: 'Explore Guides', href: '/guides', icon: 'tabler:book-2' },
+      {
+        text: 'YouTube',
+        href: 'https://www.youtube.com/channel/UCVDdRA7kwCHtcS35BWuulSg',
+        target: '_blank',
+        icon: 'tabler:brand-youtube',
+      },
+    ]}
+  >
+    <Fragment slot="title">
+      The Entertainment <span class="text-accent">Hub</span>
+    </Fragment>
+    <Fragment slot="subtitle">
+      Premium streams, free dreams. Straightforward guides for IPTV players, streaming apps, and media tools.
+    </Fragment>
+    <Fragment slot="bg">
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(139,92,246,0.28),transparent_38%),radial-gradient(circle_at_bottom_right,rgba(37,99,235,0.24),transparent_42%)]"></div>
+    </Fragment>
+  </Hero>
+
+  <BlogLatestPosts
+    title="Latest Guides"
+    linkText="View all guides"
+    information="Install, configure, and get more from your favourite entertainment apps."
+    count={4}
+  />
+
+  <Features
+    tagline="What you will find"
+    title="Entertainment made simpler"
+    items={[
+      {
+        title: 'Fire TV Guides',
+        description: 'Clear sideloading and setup instructions for Amazon Fire devices.',
+        icon: 'tabler:device-tv',
+      },
+      {
+        title: 'IPTV Players',
+        description: 'Setup help for popular players across TV, mobile, and desktop.',
+        icon: 'tabler:player-play',
+      },
+      {
+        title: 'Windows Tools',
+        description: 'Practical walkthroughs for desktop media and streaming software.',
+        icon: 'tabler:brand-windows',
+      },
+    ]}
+  />
+</Layout>
