@@ -204,6 +204,11 @@ a:hover, a:focus {
     box-shadow: 0 10px 20px rgba(139, 92, 246, 0.4);
 }
 
+.guides-hero {
+    min-height: auto;
+    padding: 3rem 1rem 2rem;
+}
+
 /* CARD structural logic */
 .card {
 	position: relative;
@@ -279,6 +284,11 @@ a:hover, a:focus {
 	background: transparent;
     border: none;
     box-shadow: none;
+}
+
+/* Keep post-only controls (including fixed "Top" links) out of the card menu. */
+.card__container--closed .card__copy {
+    display: none;
 }
 
 .card__caption {
@@ -484,13 +494,18 @@ a:hover, a:focus {
 
 /* Wrapper using CSS Grid */
 .wrapper {
-	width: 95%;
+	width: min(1400px, calc(100% - 48px));
 	max-width: 1400px;
 	margin: 0 auto;
     padding-bottom: 100px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
+}
+
+.wrapper > .card {
+    flex: 0 1 327px;
 }
 
 /* Media Queries */
@@ -507,6 +522,22 @@ a:hover, a:focus {
 	.hero h1 {
 		font-size: 2.5em;
 	}
+    .guides-hero {
+        padding: 1.5rem 1rem;
+    }
+    .wrapper {
+        width: calc(100% - 32px);
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+    .wrapper > .card {
+        flex-basis: 100%;
+        max-width: 420px;
+    }
+    .back-button {
+        padding: 9px 20px;
+        font-size: 1rem;
+    }
 }
 
 @media only screen and (max-width: 980px) {
